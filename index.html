@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barber-Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-wraper">
+        <header class="main-header ">
+            <section class="top-line">
+                <div class="container">
+                    <nav class="main-menu">
+                        <ul class="menu">
+                            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+                            <li><a href="#">НОВОСТИ</a></li>
+                            <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+                            <li><a href="#">МАГАЗИН</a></li>
+                            <li><a href="#">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="login">
+                        <img src="img/login.png" alt="">
+                        <a href="#">ВХОД</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <section class="description container">
+
+                <div class="description-item">
+                    <h2 class="title-white">БЫСТРО</h2>
+                    <img src="img/Shape-1.png" class="rhombus" alt="rhombus">
+                    <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА<br>ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ<br> ОБЛАДАТЕЛЬ
+                        СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                </div>
+
+                <div class="description-item">
+                    <h2 class="title-white">КРУТО</h2>
+                    <img src="img/Shape-1.png" class="rhombus" alt="rhombus">
+                    <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br> ВО ВСЯКОМ
+                        СЛУЧАЕ ВНЕШНЕ.</p>
+                </div>
+
+                <div class="description-item">
+                    <h2 class="title-white">ДОРОГО</h2>
+                    <img src="img/Shape-1.png" class="rhombus" alt="rhombus">
+                    <p>НАШИ МАСТЕРА - ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И<br>НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА<br>
+                        НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+                </div>
+
+            </section>
+
+            <section class="news-photo standart-white-section container">
+                <div class="news half-section">
+                    <h2 class="title-black">
+                        НОВОСТИ
+                    </h2>
+
+                    <p>НАМ НАКОНЕЦТО ЗАВЕЗЛИ ЯГЕРМАЙТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                    <span> 11 января </span>
+
+                    <p class="news-down">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС "БРИТВА" СТРИГУНЕЦ, ОБЛАДАТЕЛЬ МНОЖЕСТВА
+                        ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                    <span> 18 января </span>
+                    <a href="#" class="button-default"> ВСЕ НОВОСТИ</a>
+                </div>
+
+
+                <div class="photo half-section">
+                    <h2 class="title-black">ФОТОГАЛЕРЕЯ</h2>
+
+                    <img src="img/Layer-21.png" alt="">
+                    <div>
+                        <button type="button" class="back button-default">НАЗАД</button>
+                        <button type="button" class="next button-default">ВПЕРЕД</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="contact-information standart-white-section container">
+                <div class="contacts half-section">
+                    <h2 class="title-black">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+
+                    <p>БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+                        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+                        ТЕЛЕФОН: +7 (495) 666-02-66</p>
+
+                    <p>ВРЕМЯ РАБОТЫ: <br>
+                        ПН—ПТ: С 10:00 ДО 22:00 <br>
+                        СБ—ВС: С 10:00 ДО 19:00</p>
+                    <a href="#" class="button-default map"> КАК ПРОЕХАТЬ</a>
+                    <a href="#" class="button-default"> ОБРАТНАЯ СВЯЗЬ</a>
+                </div>
+
+                <div class="record half-section">
+                    <h2 class="title-black">ЗАПИСАТЬСЯ</h2>
+
+                    <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ</p>
+                    <form id="sub-form" action="@">
+                        <div class="half-form">
+                            <label for="date">ДАТА</label>
+                            <input type="text" placeholder="18.06.2019" id="date">
+
+                            <label for="time">ВРЕМЯ</label>
+                            <input type="text" placeholder="10:00" id="time">
+                        </div>
+                        <div class="half-form">
+                            <label for="name">ВАШЕ ИМЯ</label>
+                            <input type="text" placeholder="Бодич" id="name">
+
+                            <label for="tel">ТЕЛЕФОН</label>
+                            <input type="tel" placeholder="+7 123-456-78-90" id="tel">
+                        </div>
+
+                        <button type="submit" class="button-default long"> ОТПРАВИТЬ </button>
+                    </form>
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <div class="footer-wrap container">
+                <div class="footer-column left">
+                    <p>БАРБЕРШОП "БОРОДИНСКИЙ"<br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д 19/8</p>
+                    <a href="#">КАК НАЙТИ? </a>
+                    <p>ТЕЛЕФОН:+7(495) 666-02-66</p>
+                </div>
+
+                <div class="footer-column center">
+                    <h4> ДАВАЙ ДРУЖИТЬ!</h4>
+                    <div class="icons-wraper">
+                        <a href="#" class="logo-vk social-icon"></a>
+                        <a href="#" class="logo-facebook social-icon"></a>
+                        <a href="#" class="logo-instagram social-icon"></a>
+                    </div>
+                </div>
+
+                <div class="footer-column right">
+
+                    <h4> РАЗРАБОТАНО: </h4>
+
+                    <a href="#" class="button-default">HTML ACADEMY</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <section class="hidden-login">
+            <h2 class="title-black">ЛИЧНЫЙ КАБИНЕТ</h2>
+            <b> ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</b>
+            <form action="@">
+
+                <input class="with-icon" type="text" placeholder="ЛОГИН" id="login" name="login">
+
+
+                <input class="with-icon" type="text" placeholder="ПАРОЛЬ" id="password" name="password">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">ЗАПОМНИТЬ МЕНЯ</label>
+                <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+                <button type="submit" class="button-default long"> ВОЙТИ</button>
+                <div class="cross-login"></div>
+            </form>
+        </section>
+
+
+        <section class="hidden-map">
+
+            
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d612.0815858765826!2d127.00021226313842!3d37.269374055412655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b43856d72983f%3A0x5b0000a95110b875!2z0KPQu9C40YbQsCDQutGA0LDRgdC90YvRhSDRhNC-0L3QsNGA0LXQuQ!5e0!3m2!1sru!2sua!4v1563820789186!5m2!1sru!2sua"
+                    width="780" height="575" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="cross-map"></div>
+        </section>
+    </div>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
